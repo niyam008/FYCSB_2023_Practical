@@ -6,4 +6,5 @@ This Repository will content all practical of my first year BSe CS
 
 ## College Details
 College Name: S. K. College of Science & Commerce, Navi Mumbai
+
 State, Country: Maharashtra, India
