@@ -1,0 +1,107 @@
+### practical 004
+
+
+
+### practical 4.a
+
+
+# echo command
+    $ echo -e 'greek \bfor   \bGeek'
+    $ echo -e 'greek \cfor   \cGeek'
+    $ echo -e 'greek \nfor   \nGeek'
+
+# printf command
+    $ printf "/ sin" "Hello World"
+
+# script command
+    $ cat fycs
+    $ script recording
+    $ exit
+
+# who command
+    $ who -m -H
+    $ who -a
+
+# cal command
+    $ cal -y 2004
+    $ cal 03 2008
+    $ cal -3
+    $ cal -j
+
+# date command
+    $ date -u
+    $ date --date='02/02/2010'
+    $ date --date='feb 2 2010'
+    $ date --date='2 years ago'
+    $ date --date='5 sec ago'
+    $ date --date='yesterday'
+    $ date --date='2 months ago'
+
+
+
+### practical 4.b
+## Simple filters and I/O redirection
+
+
+# 01
+syntax: $ head [-number-of-lines-to-print] [file]
+
+# 02
+syntax: $ tail [-number-of-lines-to-print] [file]
+
+# 03
+syntax: $ cut [option]... [file]...
+
+# 04
+syntax: $ paste [option]... [file]...
+
+# 05
+syntax: $ sort <filename>
+
+# 06
+
+#|>  grep Family
+
+#|>> grep
+    syntax: $ grep [option] pattern [files]
+
+#|>> egrep
+    syntax: $ egrep [option] pattern [files]
+
+#|>> fgrep
+    syntax: $ fgrep [option] [-epattern-list] [pattern] [files]
+
+#|>> - Example:
+    $ fgrep -c-unix grep file.txt
+    $ fgrep -c-linux grep file.txt
+
+# 07
+$ cut file1.txt | tee newfile.txt
+$ echo !Sunday and Saturday are week off's | tee newfile.txt
+
+# 08
+$ uniq <filename>
+
+# 09
+$ tr <old> <new>
+
+
+
+### practical 4.c
+## Networking Commands
+
+
+# 01
+$ who
+
+# 02
+$ whoiam
+
+# 03
+$ ping google.com
+
+# 04
+$ ping -c 2 google.com
+
+
+

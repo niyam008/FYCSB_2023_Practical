@@ -1,0 +1,35 @@
+### practical 006
+
+## Working and Managing with process
+
+
+
+# 01
+
+$ sh
+ $ echo 'Hello World'
+ $ cat new.txt
+ $ # Good morning
+ $ cat newtxt.txt
+ $ exit
+
+
+# 02
+$ ps
+$ ps -A
+
+# 03
+$ kill -l
+$ ps
+# kill 4555
+
+# 04
+$ nice
+
+# 05
+$ echo 'Hello!' : at -l
+
+# 06
+batch
+
+

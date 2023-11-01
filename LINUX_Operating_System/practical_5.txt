@@ -1,0 +1,19 @@
+### practical 005
+
+
+
+# 01
+>> vi editor
+
+# 02
+$ cut grepfile.txt
+$ sed 's/linux/unix/' grepfile.txt
+$ sed 's/linux/unix/' grepfile.txt
+$ sed 's/linux/unix/' grepfile.txt
+
+# 03
+syntax: $ awk option 'selection_criteria{action}' input_file > output_file
+$ cat data.txt
+$ awk '{print NK $0}' data.txt
+
+

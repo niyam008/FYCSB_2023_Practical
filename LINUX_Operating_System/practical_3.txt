@@ -1,0 +1,108 @@
+### practical 003
+
+
+
+### practical  3a
+## File System Commands
+
+
+# 001
+syntax: $ touch <filename>
+
+# 002
+syntax: $ help [-dms] [pattern...]
+
+# 003
+syntax: $ man [option] ... [commandname]
+
+# 004
+syntax: $ more [option(s)] ... [filename]
+
+# 005
+syntax: $ less <filename>
+
+# 006
+syntax: $ pwd [option(s)]
+
+# 007
+syntax: $ cd [option(s)] directory
+
+# 008
+syntax: $ mkdir [option(s)] directory-name(s)
+
+# 009
+syntax: $ rmdir [option(s)] directory-name(s)
+
+# 010
+syntax: $ ls [option(s)] [file(s)]
+
+# 011
+syntax: $ find <location> <comparison-criteria> <search-term>
+
+
+
+### practical  3b
+## File Handing Commands
+
+
+# 001
+syntax: $ cat <filename>
+
+# 002
+syntax: $ cp [option(s)] <current-file> <new-file>
+
+# 003
+syntax: $ rm <filename>
+
+# 004
+syntax: $ mv (directory) (moving directory)
+
+# 005
+syntax: $ more <filename>
+
+# 006
+syntax: $ file <filename>
+
+# 007
+syntax: $ wc [option]... [file]...
+
+# 008
+syntax: $ od -b <filename>
+syntax: $ od -txt <filename>
+syntax: $ od -c <filename>
+
+# 009
+syntax: $ cmp <first-file> <second-file>
+
+# 010
+syntax: $ diff (option) <first-file> <second-file>
+
+# 011
+syntax: $ comm [option]... <first-file> <second-file>
+
+# 012
+syntax: $ chmod <option> <permission> <filename>
+
+# 013
+syntax: $ chown [option]... [owner] [group] file
+
+# 014
+syntax: $ chgrp [option] [group-name] [directory/filename]
+
+# 015
+syntax: $ gzip <filename>
+
+# 016
+syntax: $ gunzip <filename>
+
+# 017
+syntax: $ tar <filename> <folder-name>
+
+# 018
+syntax: $ en [option] filename link.name
+
+# 019
+syntax: $ unmask [-p] [-s] [mask]
+
+
+
