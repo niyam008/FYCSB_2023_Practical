@@ -1,8 +1,9 @@
 #!/bin/bash
-echo -n "enter number"
+echo -n "Enter a number: "
 read x
-if [$(x%2)==0];then
-    echo 'number is even'
+if [ $((x%2)) -eq 0 ]; then
+    echo "The number is even."
 else
-    echo 'number is odd
-    fi
+    echo "The number is odd."
+fi
+
